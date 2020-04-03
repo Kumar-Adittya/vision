@@ -1,0 +1,54 @@
+.sidebar-navigation{
+    padding: 15px 15px 15px 50px;  
+    font-family: 'Noto Sans', sans-serif;  
+    .logo{
+        color: #a254dd;
+        font-size: 25px; 
+        letter-spacing: 1px;
+        svg{
+            font-size: 60px;
+            vertical-align: middle;
+        }
+        >span{
+            color: #dedada;
+        }
+    }
+    h3{
+        font-size: 30px;
+        color: #dedada;
+        font-weight: bold; 
+        margin: 30px auto;
+    }
+    ul{
+        li{
+            a{
+                color: #dedada;
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+                padding: 15px 8px;
+                display: inline-block;
+                text-transform: capitalize;
+                svg{
+                    margin-right: 10px;
+                    color: #dedada;
+                }
+            }
+        }
+    }
+    .social-icons{
+        display: flex;
+        justify-content: flex-start; 
+        padding: 15px 8px;
+        margin-top: 100px;
+        >a{
+            svg{
+                color: #dedada;
+                font-size: 25px;
+            }
+            &:not(:last-child){
+                margin-right: 15px;
+            }
+        }
+    }
+}

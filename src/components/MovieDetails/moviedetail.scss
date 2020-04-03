@@ -1,0 +1,42 @@
+.detail_wrapper{
+    background-position: center top;
+    background-size: cover; 
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    h1{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.movie_detail{
+    padding-left: 30px;
+}
+.poster_img{
+    max-width: 300px;
+    width: 100%;
+}
+.Cast_wrapper{
+    padding-bottom: 40px;
+    >h3{
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .cast_inner{
+        display: flex;
+        overflow: auto;
+        justify-content: flex-start; 
+        >div{
+            margin: 0 15px;
+            flex: 0 0 20%;
+            max-width: 20%;
+        }
+    }
+}

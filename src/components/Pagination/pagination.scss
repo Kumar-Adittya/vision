@@ -1,0 +1,38 @@
+.pagination {
+  color: #ffffff;
+}
+.pagination-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+  width: 100%;
+  a {
+    color: #dedede;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #a254dd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+  }
+  ul {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+    li {
+      a {
+        border-radius: 50%;
+        color: #dedede;
+        margin: 0 8px;
+        font-size: 18px;
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export const placeholder_img = require('./placeholder_img.svg');
